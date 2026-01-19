@@ -1,0 +1,33 @@
+.projects {
+    width: 75%;
+    margin: 0 auto;
+    padding: 180px 0;
+}
+
+.projects h2 {
+    font-family: sans-serif;
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+.projects .span {
+    color: #800000;
+    font-size: 3rem;
+    text-transform: capitalize;
+    text-shadow: 1px 2px 2px #fff;
+}
+
+.projects .prodigy-projects {
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.prodigy-projects ul li {
+    list-style: none;
+    font-size: 2rem;
+    margin-top: 20px;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 800;
+}

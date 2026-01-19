@@ -1,0 +1,30 @@
+.profile {
+    width: 75%;
+    margin: 0 auto;
+    padding: 180px 0;
+}
+
+.profile-content {
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+}
+
+.profile-content img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-right: 50px;
+}
+
+.profile p {
+    font-size: 1.7rem;
+    font-family: sans-serif;
+    font-weight: 500;
+    color: #fff;
+}
+
+.profile p > span {
+    text-transform: uppercase;
+    font-weight: 800;
+}

@@ -103,7 +103,84 @@ body {
     height: fit-content;
     display: flex;
     float: right;
-    margin: 0 120px 0 0;
+    margin: 0 125px 0 0;
     position: relative;
-    bottom: 76px;
+    bottom: 75px;
+}
+
+.main-content {
+    width: 100%;
+    background-color: #000;
+}
+
+.main-content .introduction {
+    display: flex;
+    width: 75%;
+    margin: 0 auto ;
+}
+
+.introduction img {
+    width: 50%;
+    object-fit: cover;
+}
+
+.introduction > p {
+    font-size: 1.5rem;
+    color: #fff;
+    margin: auto 50px;
+    text-align: justify;
+}
+
+.main-content .tech-stacks {
+    width: 75%;
+    height: 40vh;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding-bottom: 200px;
+}
+
+.tech-stacks h2 {
+    font-size: 4rem;
+    color: #fff;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 900;
+}
+
+.tech-stacks .img-tech {
+    display: flex;
+    width: 100%;
+    margin: 80px 0;
+}
+
+.img-tech img {
+    width: 15%;
+    margin: 0 auto;
+    transition: transform 0.5s ease-in-out;
+    transform: scale(1);
+}
+
+.img-tech img:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.footer {
+    width: 100%;
+    height: 5vh;
+    background-color: #808080;
+}
+
+.footer p {
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+    align-content: center;
+    font-size: 1.3rem;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: #fff;
+    text-shadow: 2px 2px 3px #1a1a1a;
+    text-align: center;
+    margin: 0 auto;
 }
