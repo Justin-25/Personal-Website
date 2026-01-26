@@ -21,11 +21,15 @@ Accent Glow: #B9F4FF
 
 */
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     width: 100%;
     height: 95vh;
-    margin: 0;
-    padding: 0;
     background-color: #020618;
 }
 
@@ -34,19 +38,14 @@ body {
     height: 60vh;
 }
 
-.bg-top {
-    width: 100%;
-    height: 5px;
-    background-color: #020618;
-    box-shadow: 2px 3px 4px #000;
-}
-
 .header {
-    width: 100%;
+    width: 90%;
     height: 12vh;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between ;
     align-items: center;
+
 }
 
 .header .logo {
@@ -86,10 +85,43 @@ body {
     font-size: 1.1rem;
     font-family:'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 800;
-    color: #000;
+    color: #e9ecef;
 }
 
 .header nav ul li a:hover {
-    text-shadow: 1px 3px 4px #000;
-    color: #fff;
+    text-shadow: 1px 2px 2px #364fc7;
+    color: #B9F4FF;
+}
+
+.header-info {
+    width: 85%;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.header-text  {
+    width: 90%;
+    text-align: justify;
+    font-family: "Roboto", sans-serif;
+    margin: 0 auto;
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: -1px;
+    margin-left: 50px;
+    color: #e9ecef;
+}
+
+.header-text span {
+    font-size: 3rem;
+    font-weight: 800;
+    color: #B9F4FF;
+    text-transform: uppercase;
+}
+
+.header-img img {
+    width: 100%;
+    float: right;
 }
