@@ -40,12 +40,11 @@ body {
 
 .header {
     width: 90%;
-    height: 12vh;
+    height: min-content;
     margin: 0 auto;
     display: flex;
     justify-content: space-between ;
     align-items: center;
-
 }
 
 .header .logo {
@@ -110,10 +109,11 @@ body {
 }
 
 .header-info {
-    width: 85%;
+    width: 100%;
+    max-width: 1500px;
     display: flex;
     align-items: center;
-    margin: 50px auto;
+    margin: 150px auto;
 }
 
 .header-text  {
@@ -121,16 +121,16 @@ body {
     text-align: justify;
     font-family: "Roboto", sans-serif;
     margin: 0 auto;
-    font-size: 38px;
+    font-size: 3rem;
     font-weight: 700;
-    line-height: 1.2;
-    letter-spacing: -1px;
+    line-height: 1.5;
+    letter-spacing: -3px;
     margin-left: 50px;
     color: #e9ecef;
 }
 
 .header-text span {
-    font-size: 48px;
+    font-size: 3.5rem;
     font-weight: 900;
     color: #B9F4FF;
     text-transform: uppercase;
@@ -141,6 +141,7 @@ body {
     width: 150px;
     text-align: center;
     font-size: 22px;
+    letter-spacing: -1px;
     font-weight: 400;
     padding: 10px;
     margin-top: 20px;
@@ -168,5 +169,33 @@ body {
 
 .header-img img {
     width: 100%;
+    max-width: 100rem;
     float: right;
+}
+
+.main-content {
+    display: block;
+    width: 100%;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.main-content .introduction {
+    width: 100%;
+    display: flex;
+    font-size: 28px;
+    text-align: justify;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    color: #e9ecef;
+    margin: 0 50px;
+    margin-bottom: 200px;
+}
+
+.introduction img {
+    width: 100%;
+    max-width: 50rem;
+    float: right;
+    object-fit: cover;
 }
