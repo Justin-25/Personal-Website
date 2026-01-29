@@ -36,11 +36,13 @@ body {
 
 .bg-header {
     width: 100%;
+    height: 100vh;
+    min-height: 800px;
 }
 
 .header {
     width: 90%;
-    height: min-content;
+    padding-top: 1.4rem;
     margin: 0 auto;
     display: flex;
     justify-content: space-between ;
@@ -53,7 +55,7 @@ body {
     display: inline-flex;
     align-items: center;
     text-decoration: none;
-    margin-left: 30px;
+    margin-left: 1.8rem;
     position: relative;
 }
 
@@ -72,7 +74,7 @@ body {
     flex-wrap: wrap;
     padding: 0;
     margin: 0;
-    margin-right: 50px;
+    margin-right: 3.1rem;
 }
 
 .header nav ul li {
@@ -82,7 +84,7 @@ body {
 .header nav ul li a {
     display: inline-block;
     text-decoration: none;
-    padding: 20px 10px;
+    padding: 1.2rem 0.6rem;
     font-size: 1.1rem;
     font-family:'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 800;
@@ -109,11 +111,12 @@ body {
 }
 
 .header-info {
-    width: 100%;
     max-width: 1500px;
+    width: 100%;
     display: flex;
     align-items: center;
-    margin: 150px auto;
+    margin: 0 auto;
+    margin-top: 9.3rem;
 }
 
 .header-text  {
@@ -124,8 +127,8 @@ body {
     font-size: 3rem;
     font-weight: 700;
     line-height: 1.5;
-    letter-spacing: -3px;
-    margin-left: 50px;
+    letter-spacing: -2.5px;
+    margin-left: 3.1rem;
     color: #e9ecef;
 }
 
@@ -140,11 +143,11 @@ body {
     display: inline-block;
     width: 150px;
     text-align: center;
-    font-size: 22px;
+    font-size: 1.3rem;
     letter-spacing: -1px;
     font-weight: 400;
-    padding: 10px;
-    margin-top: 20px;
+    padding: 0.6rem;
+    margin-top: 1.2rem;
     text-decoration: none;
     border-radius: 10px;
     box-shadow: 0 8px #364fc7;
@@ -169,33 +172,129 @@ body {
 
 .header-img img {
     width: 100%;
-    max-width: 100rem;
-    float: right;
+    max-width: 1200px;
 }
 
 .main-content {
     display: block;
-    width: 100%;
     max-width: 1500px;
+    width: 100%;
     margin: 0 auto;
 }
 
 .main-content .introduction {
     width: 100%;
-    display: flex;
-    font-size: 28px;
+    display: inline-block;
+    margin-top: 6.2rem;
+    margin-bottom: 12.5rem;
+}
+
+.introduction p {
+    font-size: 1.7rem;
     text-align: justify;
-    align-items: center;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
+    margin: 0 3rem;
     color: #e9ecef;
-    margin: 0 50px;
-    margin-bottom: 200px;
 }
 
 .introduction img {
     width: 100%;
-    max-width: 50rem;
+    max-width: 800px;
+    margin-left: 3.1rem;
     float: right;
     object-fit: cover;
+}
+
+.tech-stacks {
+    width: 100%;
+    display: block;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    color: #e9ecef;
+}
+
+.tech-stacks .img-tech {
+    max-width: 1500px;
+    width: 90%;
+    margin: 6.2rem auto 12.5rem;
+    display: flex;
+    padding: 6.2rem 3rem;
+    border: 2px solid #1864ab;
+    justify-content: center;
+}
+
+.img-tech img {
+    max-width: 200px;
+    width: 90%;
+    margin: 4rem;
+}
+
+.container-footer {
+    width: 100%;
+}
+
+.footer {
+    max-width: 1500px;
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    padding: 3rem;
+    justify-content: space-between;
+}
+
+.footer img {
+    max-width: 150px;
+    width: 100%;
+}
+
+.footer ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.footer ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.footer ul li a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    padding: 0.5rem 1.2rem;
+    color: #e9ecef;
+    cursor: pointer;
+    position: relative;
+}
+
+.footer ul li a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    transform: scaleX(0);
+    bottom: 0;
+    left: 0;
+    background-color: #B9F4FF;
+    transform-origin: bottom right;
+}
+
+.footer ul li a:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left ;
+} 
+
+.credits {
+    width: 100%;
+    padding: 2rem;
+    text-align: justify;
+    font-size: 0.9rem;
+    font-weight: 600;
+    font-family: "Roboto", sans-serif;
+    color: #e9ecef;
 }
