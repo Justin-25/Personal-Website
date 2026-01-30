@@ -3,17 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" href="/images/Logo-Justin.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="/images/Favicon.png">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css"> 
     <title>Justin Profile</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/about.css">
 </head>
 <body>
     <!--Header of the Landding Page-->
     <div class="bg-header">
         <div class="header">
             <a class="logo" href="index.html">
-                <img src="./images/Logo-Justin.png" alt="Logo">
+                <img src="./images/Logo-code.png" alt="Logo">
+                <img class="logo-name" src="./images/Logo-name.png" alt="Logo Name">
             </a>
             <nav>
                 <ul>
@@ -24,13 +31,16 @@
                 </ul>
             </nav>
         </div>
-        <div class="header-text">
-            <p>I don't just build <span>websites</span> <br> I build <span>experiences</span> that convert.</p>
-            <p>Design. Develop. Deliver.</p>
-            <button title="Let's Solve your Problem.">Let's Talk</button>
-        </div>
-        <div class="header-img">
-            <img src="./images/Hello1.png" alt="">
+        <div class="header-info">
+            <div class="header-text">
+                <p>I don't just build <span>websites</span> <br> I build <span>experiences</span> that convert.</p>
+                <p class="hero-features">Design. Develop. Deliver.</p>
+                <a class="btn primary-btn" href="https://www.facebook.com" target="_blank" title="Let's Solve your Problem.">Let's Talk</a>
+                <a class="btn outline-btn" href="https://github.com/" target="_blank">Learn more</a>
+            </div>
+            <div class="header-img">
+                <img src="./images/header-image.png" alt="Design Develop Deliver">
+            </div>            
         </div>
     </div>
 
@@ -43,8 +53,19 @@
     </div>
 
     <!-- Footer -->
-    <div class="footer">
-        <p>Future Web Developer &copy; Justin Mandia</p>
+    <div class="container-footer">
+        <div class="footer">
+            <img src="./images/Logo-Code.png" alt="JJA Logo">
+            <ul>
+                <li><a href="https://www.facebook.com" title="facebook" target="_blank">facebook</a></li>
+                <li><a href="https://www.instagram.com" title="Instagram" target="_blank">Instagram</a></li>
+                <li><a href="https://www.youtube.com" title="Youtube" target="_blank">Youtube</a></li>
+                <li><a href="https://telegram.org" title="Telegram" target="_blank">Telegram</a></li>
+            </ul>
+        </div>
+        <div class="credits">
+            <p>&copy; 2026 JJA Web Developer. All rights reserved.</p>
+        </div>
     </div>
 </body>
 </html>
