@@ -26,10 +26,6 @@
     display: inline-block;
 }
 
-.image-container ul li a {
-    text-decoration: none;
-}
-
 .image-container ul li a img {
     max-width: 200px;
     width: 90%;

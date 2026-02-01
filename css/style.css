@@ -28,6 +28,7 @@
     
     /* ------ Spacing ------ */
     --line-height-hero-base: 1.2;
+    --line-height-hero: 1.4;
     --letter-spacing-normal: -0.7px;
     --letter-spacing-hero-section: -1.5px;
     /* ------ Family ------ */
@@ -136,6 +137,7 @@ body {
 .header-text  {
     width: 100%;
     text-align: justify;
+    flex-wrap: wrap;
     font-family: var(--font-sub-heading);
     margin: 0 auto;
     font-size: var(--font-size-xlg);
