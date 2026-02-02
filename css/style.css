@@ -137,7 +137,7 @@ body {
 .header-text  {
     width: 100%;
     text-align: justify;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     font-family: var(--font-sub-heading);
     margin: 0 auto;
     font-size: var(--font-size-xlg);
