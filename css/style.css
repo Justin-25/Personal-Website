@@ -13,6 +13,7 @@
     --border-color: #1864ab;
 
     /* ------ Size ------ */
+    --font-size-2xs: 0.8rem;
     --font-size-xs: 1.1rem;
     --font-size-sm: 1.3rem;
     --font-size-lg: 1.7rem;
@@ -137,7 +138,6 @@ body {
 .header-text  {
     width: 100%;
     text-align: justify;
-    /* flex-wrap: wrap; */
     font-family: var(--font-sub-heading);
     margin: 0 auto;
     font-size: var(--font-size-xlg);
@@ -206,18 +206,20 @@ body {
 }
 
 .introduction p {
-    font-size: var(--font-size-lg);
+    font-size: var(--font-size-sm);
+    letter-spacing: var(--letter-spacing-normal);
+    line-height: var(--line-height-hero);
     text-align: justify;
     font-family: var(--font-sub-heading);
     font-weight: var(--font-weight-semi-bold);
-    margin: 0 3rem;
+    margin: 8rem 3rem;
     color: var(--text-color-base);
 }
 
 .introduction img {
     width: 100%;
     max-width: 600px;
-    margin-left: 3.1rem;
+    margin-left: 0.5rem;
     float: right;
     object-fit: cover;
 }
