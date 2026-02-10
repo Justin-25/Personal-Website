@@ -13,6 +13,7 @@
     --border-color: #1864ab;
 
     /* ------ Size ------ */
+    --font-size-3xs: 0.5rem;
     --font-size-2xs: 0.8rem;
     --font-size-xs: 1.1rem;
     --font-size-sm: 1.3rem;
@@ -35,6 +36,9 @@
     /* ------ Family ------ */
     --font-heading: "Poppins", sans-serif;
     --font-sub-heading: "Roboto", sans-serif;
+
+    /* ------ View Height ------ */
+    --nav-height: 100px;
 }
 
 * {
@@ -49,16 +53,10 @@ body {
     background-color: var( --body-bg-color );
 }
 
-.bg-header {
-    width: 100%;
-    height: 100vh;
-    min-height: 800px;
-}
-
 .header {
+    height: var(--nav-height);
     max-width: 1200px;
     width: 90%;
-    padding-top: 1.4rem;
     margin: 0 auto;
     display: flex;
     justify-content: space-between ;
@@ -88,8 +86,7 @@ body {
 .header nav ul {
     display: flex;
     flex-wrap: wrap;
-    padding: 0;
-    margin: 0;
+    align-items: center;
     margin-right: 3.1rem;
 }
 
@@ -98,7 +95,6 @@ body {
 }
 
 .header nav ul li a {
-    display: inline-block;
     text-decoration: none;
     padding: 1.2rem 0.6rem;
     font-size: var(--font-size-xs);
@@ -126,13 +122,23 @@ body {
     transform-origin: bottom left;
 }
 
+.mobile-view {
+    overflow: hidden;
+}
+
+.mobile-icon {
+    display: none;
+}
+
+
 .header-info {
+    height: calc(90vh - var(--nav-height));
+    min-height: 500px;
     max-width: 1200px;
     width: 100%;
     display: flex;
     align-items: center;
     margin: 0 auto;
-    margin-top: 12rem;
 }
 
 .header-text  {
