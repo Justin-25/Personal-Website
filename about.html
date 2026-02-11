@@ -10,9 +10,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="icon" type="image/png" href="/images/Favicon.png">
-    <link rel="stylesheet" href="./css/normalize.css">
-    <link rel="stylesheet" href="./css/style.css"> 
-    <link rel="stylesheet" href="./css/about.css">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/style.css"> 
+    <link rel="stylesheet" href="/css/about.css">
+    <link rel="stylesheet" href="/css/queries.css">
     <title>Justin Profile</title>
 </head>
 <body>
@@ -20,10 +21,10 @@
     <div class="bg-header">
         <div class="header">
             <a class="logo" href="index.html">
-                <img src="./images/Logo-code.png" alt="Logo">
-                <img class="logo-name" src="./images/Logo-name.png" alt="Logo Name">
+                <img src="/images/Logo-Code.png" alt="Logo">
+                <img class="logo-name" src="/images/Logo-name.png" alt="Logo Name">
             </a>
-            <nav>
+            <nav class="mobile-view" id="myLinks">
                 <ul>
                     <li><a href="connect.html" target="_blank" title="Connect with Me.😉">Connect</a></li>
                     <li><a href="about.html" target="_blank" title="Brief Introduction about me.🫡">About Me</a></li>
@@ -31,6 +32,9 @@
                     <li><a href="profile.html" target="_blank" title="Profile of the Prodigy.😎">Profile</a></li>
                 </ul>
             </nav>
+            <a href="javascript:void(0);" class="mobile-icon" onclick="myFunction()">
+                <img class="menu-icon" src="/images/mobile-nav-menu.png" alt="Mobile Navigation Menu">
+            </a>
         </div>
         <div class="header-info">
             <div class="header-text">
@@ -40,7 +44,7 @@
                 <a class="btn outline-btn" href="https://github.com/" target="_blank">Learn more</a>
             </div>
             <div class="header-img">
-                <img src="./images/header-image.png" alt="Design Develop Deliver">
+                <img src="/images/header-image.png" alt="Design Develop Deliver">
             </div>            
         </div>
     </div>
